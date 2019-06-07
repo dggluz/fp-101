@@ -11,3 +11,9 @@ Program an `add/2` function which returns the sum of its numeric parameters.
 ## `next`
 
 Program a `next/1` function that returns the next number of its input.
+
+## `double`
+
+Define a `double/1` function that returns the double of the value it takes.
+
+
