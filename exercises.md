@@ -25,3 +25,8 @@ Define a `gt/2` function that indicates if a the first parameter is **g**reater 
 ## `isAdult`
 
 Define an `isAdult/1` function that tells if a person (an object with an `age` property) is an adult or not (has at least `18` years).
+
+## `and`
+
+Define an `and/2` function which returns `true` only if both parameters are `true`.
+
