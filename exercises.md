@@ -86,7 +86,10 @@ seriouslyAsk('what'); // <- 'what??'
 
 _Which is the type of the implied functions?_
 
-
 ## `plusTwo`
 
-Using functions you have already done, define `plusTwo`, which takes a number and returns that plus two.
+Using functions you have already done, define `plusTwo/1`, which takes a number and returns that plus two.
+
+## `quadruple`
+
+Define `quadruple/1`, using `twice`.
