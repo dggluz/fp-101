@@ -37,3 +37,21 @@ Define a `not/1` function which should negate what it receives.
 ## `max`
 
 Define a `max/2` function which returns the maximum value of the two it receives. Which type of data should it accept?
+
+## `both`
+
+Define a `both/1` function that takes a function `f/2` and returns a function which takes a value and applies it to **both** parameters of `f`. For example:
+
+```typescript
+const concat = (x: string, y: string) => x + y;
+const concatBoth = both(concat);
+
+expect(concatBoth('hello')).toBe('hellohello');
+```
+
+```typescript
+const divide = (x: number, y: number) => x / y;
+const one = both(divide);
+
+expect(one(40)).toBe(1);
+```
