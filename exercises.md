@@ -56,6 +56,12 @@ const one = both(divide);
 expect(one(40)).toBe(1);
 ```
 
+_Which type should have the functions?_
+
 ## `doubleBoth`
 
 Define the function `doubleBoth/1` which takes a number an returns its double (just like `double/1`). Use the function `both/1` you have done. Define it point-free.
+
+## `squareBoth`
+
+Define the function `squareBoth/1` which takes a number an returns its square value. Use the function `both/1` you have done. Define it point-free.
