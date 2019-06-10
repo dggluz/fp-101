@@ -1,4 +1,4 @@
-import { gt } from "./gt";
+import { gt } from './gt';
 
 describe('gt', () => {
 	describe('gt with numbers', () => {
