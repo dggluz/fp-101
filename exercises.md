@@ -93,3 +93,15 @@ Using functions you have already done, define `plusTwo/1`, which takes a number 
 ## `quadruple`
 
 Define `quadruple/1`, using `twice`.
+
+## `compose`
+
+Define `compose/2`. It should perform the composition of two function it takes (the first applied is the first received). For example:
+
+```typescript
+const doubleOfNext = compose(next, double);
+doubleOfNext(5); // <- 12
+
+const nextOfDouble = compose(double, next);
+nextOfDouble(5); // <- 11
+```
