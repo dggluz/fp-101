@@ -110,3 +110,7 @@ last([1, 2, 3, 4])); // <- 4
 ## `doubleOfNext`
 
 Define `doubleOfNext/1`. Use _composition_ and point-free notation.
+
+## `nextOfDouble`
+
+Define `nextOfDouble/1`. Use _composition_ and point-free notation.
