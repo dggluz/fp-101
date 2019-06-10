@@ -1,18 +1,18 @@
 import { compose } from './compose';
 
 describe('compose', () => {
-	const next = (x: number) => x + 1;
-	const double = (x: number) => x * 2;
+	const ask = (x: string) => x + '?';
+	const shout = (x: string) => x + '!';
 
 	it('compose(f, g)', ()  => {
-		const doubleOfNext = compose(next, double);
+		const shoutAQuestion = compose(ask, shout);
 
-		expect(doubleOfNext(5)).toBe(12);
+		expect(shoutAQuestion('really')).toBe('really?!');
 	});
 
 	it('compose(g, f)', () => {
-		const nextOfDouble = compose(double, next);
+		const askAShout = compose(shout, ask);
 
-		expect(nextOfDouble(5)).toBe(11);
+		expect(askAShout('really')).toBe('really!?');
 	});
 });

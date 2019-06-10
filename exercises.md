@@ -99,9 +99,12 @@ Define `quadruple/1`, using `twice`.
 Define `compose/2`. It should perform the composition of two function it takes (the first applied is the first received). For example:
 
 ```typescript
-const doubleOfNext = compose(next, double);
-doubleOfNext(5); // <- 12
+const ask = (x: string) => x + '?';
+const shout = (x: string) => x + '!';
 
-const nextOfDouble = compose(double, next);
-nextOfDouble(5); // <- 11
+const shoutAQuestion = compose(ask, shout);
+shoutAQuestion('really') // <- 'really?!'
+
+const askAShout = compose(shout, ask);
+askAShout('really') // <- 'really!?'
 ```
