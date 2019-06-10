@@ -65,3 +65,7 @@ Define the function `doubleBoth/1` which takes a number an returns its double (j
 ## `squareBoth`
 
 Define the function `squareBoth/1` which takes a number an returns its square value. Use the function `both/1` you have done. Define it point-free.
+
+## `flip`
+
+Define the `flip/1` function that takes an `f/2` function inverts its parameters' order.
