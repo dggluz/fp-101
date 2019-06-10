@@ -114,3 +114,7 @@ Define `doubleOfNext/1`. Use _composition_ and point-free notation.
 ## `nextOfDouble`
 
 Define `nextOfDouble/1`. Use _composition_ and point-free notation.
+
+## `next` (curry)
+
+Define the function `next/1`, partially applying `add/2` (from `@utils`).
