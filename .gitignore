@@ -1,1 +1,15 @@
 node_modules
+
+
+# Solutions that won't be commited (at least on master branch)
+
+src/exercises/01-id/id.ts
+src/exercises/02-add/add.ts
+src/exercises/03-next/next.ts
+src/exercises/04-double/double.ts
+src/exercises/05-gt/gt.ts
+src/exercises/06-is-adult/is-adult.ts
+src/exercises/07-and/and.ts
+src/exercises/08-not/not.ts
+src/exercises/09-max/max.ts
+src/exercises/10-both/both.ts
