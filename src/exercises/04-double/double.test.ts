@@ -1,11 +1,11 @@
-import { dobule } from './double';
+import { double } from './double';
 
 describe('double', () => {
 	it('double(3)', () => {
-		expect(dobule(3)).toBe(6);
+		expect(double(3)).toBe(6);
 	});
 
 	it('double(7)', () => {
-		expect(dobule(7)).toBe(14);
+		expect(double(7)).toBe(14);
 	});
 });
