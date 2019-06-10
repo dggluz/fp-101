@@ -1,3 +1,4 @@
+export * from './compose-ltr';
 export * from './compose';
 export * from './curry';
 export * from './flip';
