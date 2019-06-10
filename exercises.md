@@ -72,4 +72,16 @@ Define the `flip/1` function that takes an `f/2` function inverts its parameters
 
 ## `flippedConcat`
 
-Define `flippedConcat` function, which receives two strings and returns the concatenation of the second one with the first one. E.g.: `flippedConcat('hello', 'man') = 'manhello'`.
+Define `flippedConcat` function, which receives two strings and returns the concatenation of the second one with the first one. For example: `flippedConcat('hello', 'man') = 'manhello'`.
+
+## `twice`
+
+Define `twice/2` which takes a `f/2` function and returns a function that expects one argument and applies `f` with that value for both parameters. For example:
+
+```typescript
+const ask = (x: string) => x + '?';
+const seriouslyAsk = twice(ask);
+seriouslyAsk('what'); // <- 'what??'
+```
+
+_Which is the type of the implied functions?_
