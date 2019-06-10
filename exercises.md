@@ -69,3 +69,7 @@ Define the function `squareBoth/1` which takes a number an returns its square va
 ## `flip`
 
 Define the `flip/1` function that takes an `f/2` function inverts its parameters' order.
+
+## `flippedConcat`
+
+Define `flippedConcat` function, which receives two strings and returns the concatenation of the second one with the first one. E.g.: `flippedConcat('hello', 'man') = 'manhello'`.
