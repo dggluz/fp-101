@@ -96,15 +96,13 @@ Define `quadruple/1`, using `twice`.
 
 ## `compose`
 
-Define `compose/2`. It should perform the composition of two function it takes (the first applied is the first received). For example:
+Define `compose/2`. It should perform the composition of two function it takes. For example:
 
 ```typescript
-const ask = (x: string) => x + '?';
-const shout = (x: string) => x + '!';
+const head =(x: number[]) => x[0];
+const reverse =(x: number[]) => x.slice().reverse();
 
-const shoutAQuestion = compose(ask, shout);
-shoutAQuestion('really') // <- 'really?!'
+const last = compose(head, reverse);
 
-const askAShout = compose(shout, ask);
-askAShout('really') // <- 'really!?'
+last([1, 2, 3, 4])); // <- 4
 ```
