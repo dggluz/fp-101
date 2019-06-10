@@ -34,4 +34,6 @@ Define an `and/2` function which returns `true` only if both parameters are `tru
 
 Define a `not/1` function which should negate what it receives.
 
+## `max`
 
+Define a `max/2` function which returns the maximum value of the two it receives. Which type of data should it accept?
