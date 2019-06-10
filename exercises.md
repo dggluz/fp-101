@@ -30,3 +30,8 @@ Define an `isAdult/1` function that tells if a person (an object with an `age` p
 
 Define an `and/2` function which returns `true` only if both parameters are `true`.
 
+## `not`
+
+Define a `not/1` function which should negate what it receives.
+
+
