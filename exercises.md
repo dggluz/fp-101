@@ -1,4 +1,4 @@
-# Exercises
+# Basic exercises
 
 ## `id`
 
@@ -37,6 +37,8 @@ Define a `not/1` function which should negate what it receives.
 ## `max`
 
 Define a `max/2` function which returns the maximum value of the two it receives. Which type of data should it accept?
+
+# Higher order function exercises
 
 ## `both`
 
@@ -114,6 +116,8 @@ Define `doubleOfNext/1`. Use _composition_ and point-free notation.
 ## `nextOfDouble`
 
 Define `nextOfDouble/1`. Use _composition_ and point-free notation.
+
+# Currification and partial application exercises
 
 ## `next` (curry)
 
