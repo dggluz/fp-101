@@ -152,3 +152,6 @@ twoRaisedAt(3); // <- 8
 
 Use partial application.
 
+## `square` (curry)
+
+Think about the last two exercises and then define a function `square/1` which returns the square of the number it receives, using `flip`, `curry` and `pow`, all from `@utils`.
