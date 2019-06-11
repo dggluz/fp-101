@@ -1,5 +1,10 @@
 import { curry } from '../fns/curry';
 
-export const eq: <A> (x: A, y: A) => boolean = curry((x: any, y: any) =>
+interface TypeOfEq {
+	<A> (x: A, y: A): boolean;
+	<A> (x: A): (y: A) => boolean;
+}
+
+export const eq: TypeOfEq = curry((x: any, y: any) =>
 	x === y
 );
