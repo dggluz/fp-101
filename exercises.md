@@ -155,3 +155,7 @@ Use partial application.
 ## `square` (curry)
 
 Think about the last two exercises and then define a function `square/1` which returns the square of the number it receives, using `flip`, `curry` and `pow`, all from `@utils`.
+
+## `even`
+
+In a similar way than you did before, define a function `even` that gets a _number_ and tells if it is or isn't even. Try using point-free notation and use the functions `compose`, `eq`, `curry`, `flip`, and `mod`, partially applying when necessary.
