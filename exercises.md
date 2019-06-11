@@ -122,3 +122,18 @@ Define the function `next/1`, partially applying `add/2` (from `@utils`).
 ## `double` (curry)
 
 Define the function `double/1`, partially applying `multiply/2` (from `@utils`).
+
+## `at` (curry)
+
+Define the following functions:
+
+- `at/2`: which takes a position and a _list_ of _numbers_ and returns the element of the list at that position. For example:
+
+```typescript
+at(2, [1, 2, 3, 4, 5]); // <- 3, as lists are 0-indexed
+```
+
+`at`'s firm should be: `(pos: number, list: number[]) => number`.
+
+- `curriedAt/2`: which is just the function `at`, but _curried_. Use the function `curry` from `@utils` for that.
+- `head/1`: which takes a _list_ of _numbers_ and returns the first _number_ of that _list_. Use `curriedAt` for that function.
