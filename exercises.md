@@ -137,3 +137,14 @@ at(2, [1, 2, 3, 4, 5]); // <- 3, as lists are 0-indexed
 
 - `curriedAt/2`: which is just the function `at`, but _curried_. Use the function `curry` from `@utils` for that.
 - `head/1`: which takes a _list_ of _numbers_ and returns the first _number_ of that _list_. Use `curriedAt` for that function.
+
+## `twoRaisedAt`
+
+Define `twoRaisedAt/1`. For example:
+
+```typescript
+twoRaisedAt(3); // <- 8
+```
+
+Use partial application.
+
