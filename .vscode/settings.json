@@ -1,5 +1,7 @@
 {
     "typescript.tsdk": "node_modules/typescript/lib",
     "editor.insertSpaces": false,
-    "vetur.format.options.useTabs": true
+    "vetur.format.options.useTabs": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single"
 }
