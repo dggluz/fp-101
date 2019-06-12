@@ -169,3 +169,7 @@ Define a function `sum/1` that returns the sum from `1` until that number (assum
 ## `multiply`
 
 Define `multiply/2` which return the product of its arguments. Use recursivity as a sum of `x`, `y` times (suppose the arguments are called `x` and `y`).
+
+## `divide`
+
+Define `divide/2` using recursivity.
