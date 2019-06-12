@@ -168,12 +168,16 @@ Define a function `sum/1` that returns the sum from `1` until that number (assum
 
 ## `multiply`
 
-Define `multiply/2` which return the product of its arguments. Use recursivity as a sum of `x`, `y` times (suppose the arguments are called `x` and `y`). Assume only positive integers parameters.
+Define `multiply/2` which return the product of its arguments. Use recursivity as a sum of `x`, `y` times (suppose the arguments are called `x` and `y`). Assume only positive integer parameters.
 
 ## `divide`
 
-Define `divide/2` using recursivity. Assume only positive integers parameters.
+Define `divide/2` using recursivity. Assume only positive integer parameters.
 
 ## `mod`
 
-Define `mod/2` which returns the _modulus_ of a division, using recursivity. Assume only positive integers parameters.
+Define `mod/2` which returns the _modulus_ of a division, using recursivity. Assume only positive integer parameters.
+
+## `pow`
+
+Define `pow/2` which implements the potence mathematical operation. Use recursivity and assume only integer positive parameters.

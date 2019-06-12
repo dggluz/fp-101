@@ -33,3 +33,4 @@ src/exercises/27-sum/sum.ts
 src/exercises/28-multiply/multiply.ts
 src/exercises/29-divide/divide.ts
 src/exercises/30-mod/mod.ts
+src/exercises/31-pow/pow.ts
