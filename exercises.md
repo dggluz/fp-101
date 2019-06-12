@@ -185,3 +185,7 @@ Define `pow/2` which implements the potence mathematical operation. Use recursiv
 ## `factorial`
 
 Define a `factorial/1` function which returns the [_factorial_](https://en.wikipedia.org/wiki/Factorial) of a number.
+
+## `fibonacci`
+
+Define a `fibonacci/1` function which returns the [_Fibonacci number_](https://en.wikipedia.org/wiki/Fibonacci_number) of its argument.
