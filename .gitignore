@@ -32,3 +32,4 @@ src/exercises/26-even/even.ts
 src/exercises/27-sum/sum.ts
 src/exercises/28-multiply/multiply.ts
 src/exercises/29-divide/divide.ts
+src/exercises/30-mod/mod.ts
