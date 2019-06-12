@@ -181,3 +181,7 @@ Define `mod/2` which returns the _modulus_ of a division, using recursivity. Ass
 ## `pow`
 
 Define `pow/2` which implements the potence mathematical operation. Use recursivity and assume only integer positive parameters.
+
+## `factorial`
+
+Define a `factorial/1` function which returns the [_factorial_](https://en.wikipedia.org/wiki/Factorial) of a number.
