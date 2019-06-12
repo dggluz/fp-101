@@ -165,3 +165,7 @@ In a similar way than you did before, define a function `even` that gets a _numb
 ## `sum`
 
 Define a function `sum/1` that returns the sum from `1` until that number (assume it will be called only with positive integers).
+
+## `multiply`
+
+Define `multiply/2` which return the product of its arguments. Use recursivity as a sum of `x`, `y` times (suppose the arguments are called `x` and `y`).
