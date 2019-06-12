@@ -1,6 +1,6 @@
 import { multiply } from './multiply';
 
-describe('multiply', () => {
+describe('multiply (recursivity)', () => {
 	it('multiply(3, 4)', () => {
 		expect(multiply(3, 4)).toBe(12);
 	});

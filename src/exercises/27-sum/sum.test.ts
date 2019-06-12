@@ -1,6 +1,6 @@
 import { sum } from './sum';
 
-describe('sum', () => {
+describe('sum (recursivity)', () => {
 	it('sum(4) = 10', () => {
 		expect(sum(4)).toBe(10);
 	});

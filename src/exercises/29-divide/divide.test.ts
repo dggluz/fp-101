@@ -1,6 +1,6 @@
 import { divide } from './divide';
 
-describe('divide', () => {
+describe('divide (recursivity)', () => {
 	it('divide(25, 5)', () => {
 		expect(divide(25, 5)).toBe(5);
 	});
