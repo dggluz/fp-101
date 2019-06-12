@@ -36,3 +36,4 @@ src/exercises/30-mod/mod.ts
 src/exercises/31-pow/pow.ts
 src/exercises/32-factorial/factorial.ts
 src/exercises/33-fibonacci/fibonacci.ts
+src/exercises/34-length-recursivity/length-recursivity.ts

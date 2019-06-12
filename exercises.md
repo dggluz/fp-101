@@ -189,3 +189,9 @@ Define a `factorial/1` function which returns the [_factorial_](https://en.wikip
 ## `fibonacci`
 
 Define a `fibonacci/1` function which returns the [_Fibonacci number_](https://en.wikipedia.org/wiki/Fibonacci_number) of its argument.
+
+# Lists and recursivity
+
+## `length`
+
+Define the function `length/1`, which takes a _list_ and returns its _length_. It's forbidden to directly access `.length` property for this exercise. Use functions `isEmpty`, `tail` and `add` from `@utils` instead.
