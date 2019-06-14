@@ -195,3 +195,7 @@ Define a `fibonacci/1` function which returns the [_Fibonacci number_](https://e
 ## `length`
 
 Define the function `length/1`, which takes a _list_ and returns its _length_. It's forbidden to directly access `.length` property for this exercise. Use functions `isEmpty`, `tail` and `add` from `@utils` instead.
+
+## `sum`
+
+Define the function `sum/1` which takes a list of number and return the sum of all them. Use recursivity.
