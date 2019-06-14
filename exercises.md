@@ -207,3 +207,7 @@ Define de function `production/1` which takes a list of numbers and return the p
 ## `doubles`
 
 Using _recursivity_, define the function `doubles/1` which returns the doubles of a list of numbers.
+
+## `evens`
+
+Define `even/1` which get a list of numbers and returns a list with the _even_ numbers.
