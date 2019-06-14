@@ -215,3 +215,7 @@ Define `even/1` which get a list of numbers and returns a list with the _even_ n
 ## `at`
 
 With _recursivity_, define `at/2` which takes a position and a list and returns the element in the list at that position.
+
+## `maximum`
+
+Define `maximum/1` which returns the maximum of a non-empty numbers list. It may help defining helper functions like `subhead/1` which should return the _second_ element of the list it takes and `subtail/1` which would be _tail of the tail_.
