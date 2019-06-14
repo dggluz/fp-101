@@ -198,4 +198,8 @@ Define the function `length/1`, which takes a _list_ and returns its _length_. I
 
 ## `sum`
 
-Define the function `sum/1` which takes a list of number and return the sum of all them. Use recursivity.
+Define the function `sum/1` which takes a list of numbers and return the sum of all them. Use recursivity.
+
+## `production`
+
+Define de function `production/1` which takes a list of numbers and return the production of all them. Use recursivity.
