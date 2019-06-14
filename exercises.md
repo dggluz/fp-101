@@ -203,3 +203,7 @@ Define the function `sum/1` which takes a list of numbers and return the sum of 
 ## `production`
 
 Define de function `production/1` which takes a list of numbers and return the production of all them. Use recursivity.
+
+## `doubles`
+
+Using _recursivity_, define the function `doubles/1` which returns the doubles of a list of numbers.
