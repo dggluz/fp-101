@@ -223,3 +223,7 @@ Define `maximum/1` which returns the maximum of a non-empty numbers list. It may
 ## `some`
 
 Define `some/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns `true` if the _predicate_ is truthy for at lest one element of the list.
+
+## `every`
+
+Define `every/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns `true` if the _predicate_ is truthy for all the elements of the list.
