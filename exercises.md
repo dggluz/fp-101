@@ -219,3 +219,7 @@ With _recursivity_, define `at/2` which takes a position and a list and returns 
 ## `maximum`
 
 Define `maximum/1` which returns the maximum of a non-empty numbers list. It may help defining helper functions like `subhead/1` which should return the _second_ element of the list it takes and `subtail/1` which would be _tail of the tail_.
+
+## `some`
+
+Define `some/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns `true` if the _predicate_ is truthy for at lest one element of the list.
