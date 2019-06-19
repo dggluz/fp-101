@@ -5,6 +5,7 @@
     "jsRules": {},
     "rules": {
         "array-type": false,
+        "arrow-parens": false,
         "class-name": true,
         "curly": true,
         "encoding": true,
