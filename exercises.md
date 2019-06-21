@@ -227,3 +227,7 @@ Define `some/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns `
 ## `every`
 
 Define `every/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns `true` if the _predicate_ is truthy for all the elements of the list.
+
+## `doubles` (with `map`)
+
+Using `map/2` from `@utils` and a version of `double` you have already done, define `doubles/1` which takes a _list_ and returns another list with the double of each number. Can you write it in a _point-free style_?
