@@ -249,3 +249,7 @@ Define the function `filter/2` which takes a _predicate_ (a _function_ of _arity
 ## `sum`
 
 Using `reduce/3` from `@utils`, define `sum/1` which returns the sum of the _numbers list_ it takes. Can you write it _point-free style_?
+
+## `production`
+
+Using `reduce/3` from `@utils`, define `production/1` which returns the production of the _numbers list_ it takes. Can you write it _point-free style_?
