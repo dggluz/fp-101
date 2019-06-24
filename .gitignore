@@ -53,3 +53,4 @@ src/exercises/47-sum-reduce/sum-reduce.ts
 src/exercises/48-production-reduce/production.ts
 src/exercises/49-maximum-reduce/maximum-reduce.ts
 src/exercises/50-length-reduce/length-reduce.ts
+src/exercises/51-some-reduce/some-reduce.ts

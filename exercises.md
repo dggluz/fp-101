@@ -261,3 +261,7 @@ Using `reduce/3` from `@utils`, define `maximum/1` which returns the greater ele
 ## `length`
 
 Using `reduce/3` from `@utils` and _partial application_, define `length/1` which returns the _length_ of a list. Can you write it _point-free style_?
+
+## `some`
+
+Using `reduce/3` from `@utils`, define `some/2` which takes a _predicate_ and a _list_ and return `true` if at least one _element_ from the _list_ conforms with the _predicate_.
