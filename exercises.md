@@ -257,3 +257,7 @@ Using `reduce/3` from `@utils`, define `production/1` which returns the producti
 ## `maximum`
 
 Using `reduce/3` from `@utils`, define `maximum/1` which returns the greater element from a list. Can you write it _point-free style_?
+
+## `length`
+
+Using `reduce/3` from `@utils` and _partial application_, define `length/1` which returns the _length_ of a list. Can you write it _point-free style_?
