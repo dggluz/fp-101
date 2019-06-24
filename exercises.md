@@ -253,3 +253,7 @@ Using `reduce/3` from `@utils`, define `sum/1` which returns the sum of the _num
 ## `production`
 
 Using `reduce/3` from `@utils`, define `production/1` which returns the production of the _numbers list_ it takes. Can you write it _point-free style_?
+
+## `maximum`
+
+Using `reduce/3` from `@utils`, define `maximum/1` which returns the greater element from a list. Can you write it _point-free style_?
