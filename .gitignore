@@ -47,3 +47,4 @@ src/exercises/41-some-recursivity/some-recursivity.ts
 src/exercises/42-every-recursivity/every-recursivity.ts
 src/exercises/43-doubles-map/doubles-map.ts
 src/exercises/44-map-recursivity/map-recursivity.ts
+src/exercises/45-evens-filter/evens-filter.ts

@@ -230,8 +230,12 @@ Define `every/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns 
 
 ## `doubles` (with `map`)
 
-Using `map/2` from `@utils` and a version of `double` you have already done, define `doubles/1` which takes a _list_ and returns another list with the double of each number. Can you write it in a _point-free style_?
+Using `map/2` from `@utils` and a version of `double/1` you have already done, define `doubles/1` which takes a _list_ and returns another list with the double of each number. Can you write it in a _point-free style_?
 
 ## `map` (recursivity)
 
 Define the function `map/2` which takes a _function_ and a _list_ and transform each _element_ of the _list_ with the _function_.
+
+## `evens` (filter)
+
+Using `filter/2` from `@utils` and a version of `even/1` you have already done, define `evens/1` which takes a _list_ of _numbers_ and returns another _list_ with the _even numbers_ from the first one. Can you write it in a _point-free style_?
