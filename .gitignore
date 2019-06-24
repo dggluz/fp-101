@@ -49,3 +49,4 @@ src/exercises/43-doubles-map/doubles-map.ts
 src/exercises/44-map-recursivity/map-recursivity.ts
 src/exercises/45-evens-filter/evens-filter.ts
 src/exercises/46-filter-recursivity/filter-recursivity.ts
+src/exercises/47-sum-reduce/sum-reduce.ts

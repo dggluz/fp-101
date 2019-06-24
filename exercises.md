@@ -243,3 +243,9 @@ Using `filter/2` from `@utils` and a version of `even/1` you have already done, 
 ## `filter` (recursivity)
 
 Define the function `filter/2` which takes a _predicate_ (a _function_ of _arity_ 1 with a _boolean output_) and a _list_ and returns a list with the _elements_ that conform with the _predicate_.
+
+# Reduce
+
+## `sum`
+
+Using `reduce/3` from `@utils`, define `sum/1` which returns the sum of the _numbers list_ it takes. Can you write it _point-free style_?
