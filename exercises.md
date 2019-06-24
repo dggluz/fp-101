@@ -239,3 +239,7 @@ Define the function `map/2` which takes a _function_ and a _list_ and transform 
 ## `evens` (filter)
 
 Using `filter/2` from `@utils` and a version of `even/1` you have already done, define `evens/1` which takes a _list_ of _numbers_ and returns another _list_ with the _even numbers_ from the first one. Can you write it in a _point-free style_?
+
+## `filter` (recursivity)
+
+Define the function `filter/2` which takes a _predicate_ (a _function_ of _arity_ 1 with a _boolean output_) and a _list_ and returns a list with the _elements_ that conform with the _predicate_.
