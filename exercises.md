@@ -273,3 +273,7 @@ You have already done `some/2` using `reduce/3` and you have also done `every/2`
 ## `reduce` (recursivity)
 
 Ok, now that you are familiar with `reduce/3`, try implementing it, using _recurisity_.
+
+## `map` (reduce)
+
+`map/2` can be defined using `reduce/3`. Can you do it?
