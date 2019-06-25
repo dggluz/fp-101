@@ -57,3 +57,4 @@ src/exercises/51-some-reduce/some-reduce.ts
 src/exercises/52-partial-every-reduce/partial-every-reduce.ts
 src/exercises/53-reduce-recursivity/reduce-recursivity.ts
 src/exercises/54-map-reduce/map-reduce.ts
+src/exercises/55-filter-reduce/filter-reduce.ts

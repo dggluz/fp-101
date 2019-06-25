@@ -277,3 +277,7 @@ Ok, now that you are familiar with `reduce/3`, try implementing it, using _recur
 ## `map` (reduce)
 
 `map/2` can be defined using `reduce/3`. Can you do it?
+
+## `filter` (reduce)
+
+`filter/2` can be defined using `reduce/3`. Can you do it?
