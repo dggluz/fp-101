@@ -55,3 +55,4 @@ src/exercises/49-maximum-reduce/maximum-reduce.ts
 src/exercises/50-length-reduce/length-reduce.ts
 src/exercises/51-some-reduce/some-reduce.ts
 src/exercises/52-partial-every-reduce/partial-every-reduce.ts
+src/exercises/53-reduce-recursivity/reduce-recursivity.ts

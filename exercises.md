@@ -269,3 +269,7 @@ Using `reduce/3` from `@utils`, define `some/2` which takes a _predicate_ and a 
 ## Partial `every`
 
 You have already done `some/2` using `reduce/3` and you have also done `every/2` using _recursivity_. I bet you can guess how to define `some/2` using `reduce/3`. But, can you do `partialEvery/1` (pay special attention to the arity) which returns a _function_ that expects the list, **using `compose` and _point free style_**?
+
+## `reduce` (recursivity)
+
+Ok, now that you are familiar with `reduce/3`, try implementing it, using _recurisity_.
