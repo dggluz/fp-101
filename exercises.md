@@ -281,3 +281,9 @@ Ok, now that you are familiar with `reduce/3`, try implementing it, using _recur
 ## `filter` (reduce)
 
 `filter/2` can be defined using `reduce/3`. Can you do it?
+
+# Integration exercises
+
+## `equalLists`
+
+Define a function `equalLists/2` that tells us if two lists (of _numbers_, _booleans_ or _strings_) are equal. You may use _recursivity_ for that. Why this wouldn't work for _lists_ of _lists_?
