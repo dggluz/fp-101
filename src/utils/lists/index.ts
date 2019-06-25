@@ -1,3 +1,4 @@
+export * from './append';
 export * from './every';
 export * from './filter';
 export * from './find';
