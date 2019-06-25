@@ -265,3 +265,7 @@ Using `reduce/3` from `@utils` and _partial application_, define `length/1` whic
 ## `some`
 
 Using `reduce/3` from `@utils`, define `some/2` which takes a _predicate_ and a _list_ and return `true` if at least one _element_ from the _list_ conforms with the _predicate_.
+
+## Partial `every`
+
+You have already done `some/2` using `reduce/3` and you have also done `every/2` using _recursivity_. I bet you can guess how to define `some/2` using `reduce/3`. But, can you do `partialEvery/1` (pay special attention to the arity) which returns a _function_ that expects the list, **using `compose` and _point free style_**?
