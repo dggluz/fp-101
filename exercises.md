@@ -287,3 +287,7 @@ Ok, now that you are familiar with `reduce/3`, try implementing it, using _recur
 ## `equalLists`
 
 Define a function `equalLists/2` that tells us if two lists (of _numbers_, _booleans_ or _strings_) are equal. You may use _recursivity_ for that. Why this wouldn't work for _lists_ of _lists_?
+
+## `reverse`
+
+Define the function `reverse/1` which recives a list and returns the list in reverse order.

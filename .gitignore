@@ -59,3 +59,4 @@ src/exercises/53-reduce-recursivity/reduce-recursivity.ts
 src/exercises/54-map-reduce/map-reduce.ts
 src/exercises/55-filter-reduce/filter-reduce.ts
 src/exercises/56-equal-lists/equal-lists.ts
+src/exercises/57-reverse-list/reverse-list.ts
