@@ -291,3 +291,7 @@ Define a function `equalLists/2` that tells us if two lists (of _numbers_, _bool
 ## `reverse`
 
 Define the function `reverse/1` which recives a list and returns the list in reverse order.
+
+## `palindrome`
+
+Using _functions_ you have already defined, define `palindrome/1` which tells if the _list_ it takes is read equally back and forth.
