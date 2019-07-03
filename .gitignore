@@ -3,7 +3,7 @@ node_modules
 
 # Solutions that won't be commited (at least on master branch)
 
-src/exercises/01-id/id.ts
+# src/exercises/01-id/id.ts
 src/exercises/02-add/add.ts
 src/exercises/03-next/next.ts
 src/exercises/04-double/double.ts
