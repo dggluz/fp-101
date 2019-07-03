@@ -299,3 +299,7 @@ Using _functions_ you have already defined, define `palindrome/1` which tells if
 ## `zipWith`
 
 Define `zipWith/3` which takes a _function_ (`<A, B, C> (x: A, y: B) => C`) and two _lists_ (`A[]` and `B[]`) and returns another list (`C[]`) resulting of applying the _function_ to the _lists_.
+
+## `relationAccomplishedForAll`
+
+Define `relationAccomplishedForAll/1` which takes a _binary predicate_ and could be used for creating `equalLists/2` like `const equalLists = relationAccomplishedForAll(eq)`.
