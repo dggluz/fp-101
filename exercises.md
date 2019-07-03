@@ -295,3 +295,7 @@ Define the function `reverse/1` which recives a list and returns the list in rev
 ## `palindrome`
 
 Using _functions_ you have already defined, define `palindrome/1` which tells if the _list_ it takes is read equally back and forth.
+
+## `zipWith`
+
+Define `zipWith/3` which takes a _function_ (`<A, B, C> (x: A, y: B) => C`) and two _lists_ (`A[]` and `B[]`) and returns another list (`C[]`) resulting of applying the _function_ to the _lists_.

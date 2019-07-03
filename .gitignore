@@ -61,3 +61,4 @@ src/exercises/55-filter-reduce/filter-reduce.ts
 src/exercises/56-equal-lists/equal-lists.ts
 src/exercises/57-reverse-list/reverse-list.ts
 src/exercises/58-palindrome/palindrome.ts
+src/exercises/59-zip-with/zip-with.ts
