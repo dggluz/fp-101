@@ -42,7 +42,7 @@ The _functions_ there are all _curried_. You can find the source code of them at
 
 ## Solutions
 
-The solutions to the exercises are uploaded to the [`solutions` branch](), you can take a peek to them if you wish (though I recommend you to try solving the problems by yourself first).
+The solutions to the exercises are uploaded to the [`solutions` branch](https://github.com/dggluz/fp-101/tree/solutions), you can take a peek to them if you wish (though I recommend you to try solving the problems by yourself first).
 
 ## Glossary
 
