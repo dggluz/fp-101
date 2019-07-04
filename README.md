@@ -1,18 +1,22 @@
 # TypeScript/JavaScript functional 101
 
-The aim of this repository is to help you **get used to the functional programming style**. It is a collection of exercises, with automatic tests that will check your solutions. **It does not explain functional concepts.**. It is also introductory, so advanced topics won't be covered.
+The aim of this repository is to help you **get used to the functional programming style**. It is a collection of exercises, with automatic tests that will check your solutions. **It does not explain functional concepts**. It is also introductory, so advanced topics won't be covered.
 
 The exercises can be solved using **TypeScript** or **JavaScript** (but I strongly recommend you to use TypeScript).
 
 **You will find the exercises [here](./exercises.md).**
 
+## Is this guide for me?
+
+If you want to start with functional programming and you know at least a little bit of JavaScript or TypeScript, then yes!
+
 ## Setup
 
-* Clone this repository.
+* Clone [this repository](https://github.com/dggluz/fp-101).
 * Open the directory with your code editor (project settings for [Visual Studio Code](https://code.visualstudio.com/) are included).
-* Install the dependencies (`npm i`).
-* Run the tests.
-* Solve the exercises.
+* Install the dependencies (`npm i` in the console).
+* [Run the tests](#running-the-tests).
+* [Solve the exercises](#solving-the-exercises) [following the rules](#following-the-rules).
 
 ## Running the tests
 
@@ -62,7 +66,7 @@ This is not a theoric guide but just a practical one and it should be used as a 
 
 ## Contributing
 
-All the contributions (issues reporting, PRs, difussion, etc.) will be welcomed.
+All the contributions (issues reporting, PRs, difussion, etc.) will be welcome.
 
 ## License
 
