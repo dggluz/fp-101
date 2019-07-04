@@ -1,46 +1,46 @@
 # Basic exercises
 
-## `id`
+## 01. `id`
 
 Program an `id/1` function (the `/1` means it has arity 1), which should return the same value it takes. It should work with different data types.
 
-## `add`
+## 02. `add`
 
 Program an `add/2` function which returns the sum of its numeric parameters.
 
-## `next`
+## 03. `next`
 
 Program a `next/1` function that returns the next number of its input.
 
-## `double`
+## 04. `double`
 
 Define a `double/1` function that returns the double of the value it takes.
 
-## `gt`
+## 05. `gt`
 
 Define a `gt/2` function that indicates if a the first parameter is **g**reater **t**han the second one.
 
 *It shoud work with not only numbers*. Hint: check the `Ord` type, available in `@utils`.
 
-## `isAdult`
+## 06. `isAdult`
 
 Define an `isAdult/1` function that tells if a person (an object with an `age` property) is an adult or not (has at least `18` years).
 
-## `and`
+## 07. `and`
 
 Define an `and/2` function which returns `true` only if both parameters are `true`.
 
-## `not`
+## 08. `not`
 
 Define a `not/1` function which should negate what it receives.
 
-## `max`
+## 09. `max`
 
 Define a `max/2` function which returns the maximum value of the two it receives. Which type of data should it accept?
 
 # Higher order function exercises
 
-## `both`
+## 10. `both`
 
 Define a `both/1` function that takes a function `f/2` and returns a function which takes a value and applies it to **both** parameters of `f`. For example:
 
@@ -60,23 +60,23 @@ expect(one(40)).toBe(1);
 
 _Which type should have the functions?_
 
-## `doubleBoth`
+## 11. `doubleBoth`
 
 Define the function `doubleBoth/1` which takes a number an returns its double (just like `double/1`). Use the function `both/1` you have done.
 
-## `squareBoth`
+## 12. `squareBoth`
 
 Define the function `squareBoth/1` which takes a number an returns its square value. Use the function `both/1` you have done.
 
-## `flip`
+## 13. `flip`
 
 Define the `flip/1` function that takes an `f/2` function inverts its parameters' order.
 
-## `flippedConcat`
+## 14. `flippedConcat`
 
 Define `flippedConcat` function, which receives two strings and returns the concatenation of the second one with the first one. For example: `flippedConcat('hello', 'man') = 'manhello'`.
 
-## `twice`
+## 15. `twice`
 
 Define `twice/2` which takes a `f/2` function and returns a function that expects one argument and applies `f` with that value for both parameters. For example:
 
@@ -88,15 +88,15 @@ seriouslyAsk('what'); // <- 'what??'
 
 _Which is the type of the implied functions?_
 
-## `plusTwo`
+## 16. `plusTwo`
 
 Using functions you have already done, define `plusTwo/1`, which takes a number and returns that plus two.
 
-## `quadruple`
+## 17. `quadruple`
 
 Define `quadruple/1`, using `twice`.
 
-## `compose`
+## 18. `compose`
 
 Define `compose/2`. It should perform the composition of two function it takes. For example:
 
@@ -109,25 +109,25 @@ const last = compose(head, reverse);
 last([1, 2, 3, 4])); // <- 4
 ```
 
-## `doubleOfNext`
+## 19. `doubleOfNext`
 
 Define `doubleOfNext/1`. Use _composition_ and point-free notation.
 
-## `nextOfDouble`
+## 20. `nextOfDouble`
 
 Define `nextOfDouble/1`. Use _composition_ and point-free notation.
 
 # Currification and partial application exercises
 
-## `next` (curry)
+## 21. `next` (curry)
 
 Define the function `next/1`, partially applying `add/2` (from `@utils`).
 
-## `double` (curry)
+## 22. `double` (curry)
 
 Define the function `double/1`, partially applying `multiply/2` (from `@utils`).
 
-## `at` (curry)
+## 23. `at` (curry)
 
 Define the following functions:
 
@@ -142,7 +142,7 @@ at(2, [1, 2, 3, 4, 5]); // <- 3, as lists are 0-indexed
 - `curriedAt/2`: which is just the function `at`, but _curried_. Use the function `curry` from `@utils` for that.
 - `head/1`: which takes a _list_ of _numbers_ and returns the first _number_ of that _list_. Use `curriedAt` for that function.
 
-## `twoRaisedAt`
+## 24. `twoRaisedAt`
 
 Define `twoRaisedAt/1`. For example:
 
@@ -152,154 +152,154 @@ twoRaisedAt(3); // <- 8
 
 Use partial application.
 
-## `square` (curry)
+## 25. `square` (curry)
 
 Think about the last two exercises and then define a function `square/1` which returns the square of the number it receives, using `flip`, `curry` and `pow`, all from `@utils`.
 
-## `even`
+## 26. `even`
 
 In a similar way than you did before, define a function `even` that gets a _number_ and tells if it is or isn't even. Try using point-free notation and use the functions `compose`, `eq`, `curry`, `flip`, and `mod`, partially applying when necessary.
 
 # Recursivity exercises
 
-## `sum`
+## 27. `sum`
 
 Define a function `sum/1` that returns the sum from `1` until that number (assume it will be called only with positive integers).
 
-## `multiply`
+## 28. `multiply`
 
 Define `multiply/2` which return the product of its arguments. Use recursivity as a sum of `x`, `y` times (suppose the arguments are called `x` and `y`). Assume only positive integer parameters.
 
-## `divide`
+## 29. `divide`
 
 Define `divide/2` using recursivity. Assume only positive integer parameters.
 
-## `mod`
+## 30. `mod`
 
 Define `mod/2` which returns the _modulus_ of a division, using recursivity. Assume only positive integer parameters.
 
-## `pow`
+## 31. `pow`
 
 Define `pow/2` which implements the potence mathematical operation. Use recursivity and assume only integer positive parameters.
 
-## `factorial`
+## 32. `factorial`
 
 Define a `factorial/1` function which returns the [_factorial_](https://en.wikipedia.org/wiki/Factorial) of a number.
 
-## `fibonacci`
+## 33. `fibonacci`
 
 Define a `fibonacci/1` function which returns the [_Fibonacci number_](https://en.wikipedia.org/wiki/Fibonacci_number) of its argument.
 
 # Lists and recursivity
 
-## `length`
+## 34. `length`
 
 Define the function `length/1`, which takes a _list_ and returns its _length_. It's forbidden to directly access `.length` property for this exercise. Use functions `isEmpty`, `tail` and `add` from `@utils` instead.
 
-## `sum`
+## 35. `sum`
 
 Define the function `sum/1` which takes a list of numbers and return the sum of all them. Use recursivity.
 
-## `production`
+## 36. `production`
 
 Define de function `production/1` which takes a list of numbers and return the production of all them. Use recursivity.
 
-## `doubles`
+## 37. `doubles`
 
 Using _recursivity_, define the function `doubles/1` which returns the doubles of a list of numbers.
 
-## `evens`
+## 38. `evens`
 
 Define `even/1` which get a list of numbers and returns a list with the _even_ numbers.
 
-## `at`
+## 39. `at`
 
 With _recursivity_, define `at/2` which takes a position and a list and returns the element in the list at that position.
 
-## `maximum`
+## 40. `maximum`
 
 Define `maximum/1` which returns the maximum of a non-empty numbers list. It may help defining helper functions like `subhead/1` which should return the _second_ element of the list it takes and `subtail/1` which would be _tail of the tail_.
 
-## `some`
+## 41. `some`
 
 Define `some/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns `true` if the _predicate_ is truthy for at lest one element of the list.
 
-## `every`
+## 42. `every`
 
 Define `every/2` which takes a _predicate_ of `T` and a _list_ of `T`s. Returns `true` if the _predicate_ is truthy for all the elements of the list.
 
-## `doubles` (with `map`)
+## 43. `doubles` (with `map`)
 
 Using `map/2` from `@utils` and a version of `double/1` you have already done, define `doubles/1` which takes a _list_ and returns another list with the double of each number. Can you write it in a _point-free style_?
 
-## `map` (recursivity)
+## 44. `map` (recursivity)
 
 Define the function `map/2` which takes a _function_ and a _list_ and transform each _element_ of the _list_ with the _function_.
 
-## `evens` (filter)
+## 45. `evens` (filter)
 
 Using `filter/2` from `@utils` and a version of `even/1` you have already done, define `evens/1` which takes a _list_ of _numbers_ and returns another _list_ with the _even numbers_ from the first one. Can you write it in a _point-free style_?
 
-## `filter` (recursivity)
+## 46. `filter` (recursivity)
 
 Define the function `filter/2` which takes a _predicate_ (a _function_ of _arity_ 1 with a _boolean output_) and a _list_ and returns a list with the _elements_ that conform with the _predicate_.
 
 # Reduce
 
-## `sum`
+## 47. `sum`
 
 Using `reduce/3` from `@utils`, define `sum/1` which returns the sum of the _numbers list_ it takes. Can you write it _point-free style_?
 
-## `production`
+## 48. `production`
 
 Using `reduce/3` from `@utils`, define `production/1` which returns the production of the _numbers list_ it takes. Can you write it _point-free style_?
 
-## `maximum`
+## 49. `maximum`
 
 Using `reduce/3` from `@utils`, define `maximum/1` which returns the greater element from a list. Can you write it _point-free style_?
 
-## `length`
+## 50. `length`
 
 Using `reduce/3` from `@utils` and _partial application_, define `length/1` which returns the _length_ of a list. Can you write it _point-free style_?
 
-## `some`
+## 51. `some`
 
 Using `reduce/3` from `@utils`, define `some/2` which takes a _predicate_ and a _list_ and return `true` if at least one _element_ from the _list_ conforms with the _predicate_.
 
-## Partial `every`
+## 52. Partial `every`
 
 You have already done `some/2` using `reduce/3` and you have also done `every/2` using _recursivity_. I bet you can guess how to define `some/2` using `reduce/3`. But, can you do `partialEvery/1` (pay special attention to the arity) which returns a _function_ that expects the list, **using `compose` and _point free style_**?
 
-## `reduce` (recursivity)
+## 53. `reduce` (recursivity)
 
 Ok, now that you are familiar with `reduce/3`, try implementing it, using _recurisity_.
 
-## `map` (reduce)
+## 54. `map` (reduce)
 
 `map/2` can be defined using `reduce/3`. Can you do it?
 
-## `filter` (reduce)
+## 55. `filter` (reduce)
 
 `filter/2` can be defined using `reduce/3`. Can you do it?
 
 # Integration exercises
 
-## `equalLists`
+## 56. `equalLists`
 
 Define a function `equalLists/2` that tells us if two lists (of _numbers_, _booleans_ or _strings_) are equal. You may use _recursivity_ for that. Why this wouldn't work for _lists_ of _lists_?
 
-## `reverse`
+## 57. `reverse`
 
 Define the function `reverse/1` which recives a list and returns the list in reverse order.
 
-## `palindrome`
+## 58. `palindrome`
 
 Using _functions_ you have already defined, define `palindrome/1` which tells if the _list_ it takes is read equally back and forth.
 
-## `zipWith`
+## 59. `zipWith`
 
 Define `zipWith/3` which takes a _function_ (`<A, B, C> (x: A, y: B) => C`) and two _lists_ (`A[]` and `B[]`) and returns another list (`C[]`) resulting of applying the _function_ to the _lists_.
 
-## `relationAccomplishedForAll`
+## 60. `relationAccomplishedForAll`
 
 Define `relationAccomplishedForAll/1` which takes a _binary predicate_ and could be used for creating `equalLists/2` like `const equalLists = relationAccomplishedForAll(eq)`.
