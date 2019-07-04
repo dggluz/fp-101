@@ -4,62 +4,62 @@ node_modules
 # Solutions that won't be commited (at least on master branch)
 
 # src/exercises/01-id/id.ts
-src/exercises/02-add/add.ts
-src/exercises/03-next/next.ts
-src/exercises/04-double/double.ts
-src/exercises/05-gt/gt.ts
-src/exercises/06-is-adult/is-adult.ts
-src/exercises/07-and/and.ts
-src/exercises/08-not/not.ts
-src/exercises/09-max/max.ts
-src/exercises/10-both/both.ts
-src/exercises/11-double-both/double-both.ts
-src/exercises/12-square-both/square-both.ts
-src/exercises/13-flip/flip.ts
-src/exercises/14-flipped-concat/flipped-concat.ts
-src/exercises/15-twice/twice.ts
-src/exercises/16-plus-two/plus-two.ts
-src/exercises/17-quadruple/quadruple.ts
-src/exercises/18-compose/compose.ts
-src/exercises/19-double-of-next/double-of-next.ts
-src/exercises/20-next-of-double/next-of-double.ts
-src/exercises/21-next-curry/next-curry.ts
-src/exercises/22-double-curry/double-curry.ts
-src/exercises/23-at-curry/at-curry.ts
-src/exercises/24-two-raised-at/two-raised-at.ts
-src/exercises/25-square-curry/square-curry.ts
-src/exercises/26-even/even.ts
-src/exercises/27-sum/sum.ts
-src/exercises/28-multiply/multiply.ts
-src/exercises/29-divide/divide.ts
-src/exercises/30-mod/mod.ts
-src/exercises/31-pow/pow.ts
-src/exercises/32-factorial/factorial.ts
-src/exercises/33-fibonacci/fibonacci.ts
-src/exercises/34-length-recursivity/length-recursivity.ts
-src/exercises/35-sum-lists-recursivity/sum-lists-recursivity.ts
-src/exercises/36-production-recursivity/production.ts
-src/exercises/37-doubles-recursivity/doubles.ts
-src/exercises/38-evens-recursivity/evens.ts
-src/exercises/39-at-recursivity/at.ts
-src/exercises/40-maximum-recursivity/maximum.ts
-src/exercises/41-some-recursivity/some-recursivity.ts
-src/exercises/42-every-recursivity/every-recursivity.ts
-src/exercises/43-doubles-map/doubles-map.ts
-src/exercises/44-map-recursivity/map-recursivity.ts
-src/exercises/45-evens-filter/evens-filter.ts
-src/exercises/46-filter-recursivity/filter-recursivity.ts
-src/exercises/47-sum-reduce/sum-reduce.ts
-src/exercises/48-production-reduce/production.ts
-src/exercises/49-maximum-reduce/maximum-reduce.ts
-src/exercises/50-length-reduce/length-reduce.ts
-src/exercises/51-some-reduce/some-reduce.ts
-src/exercises/52-partial-every-reduce/partial-every-reduce.ts
-src/exercises/53-reduce-recursivity/reduce-recursivity.ts
-src/exercises/54-map-reduce/map-reduce.ts
-src/exercises/55-filter-reduce/filter-reduce.ts
-src/exercises/56-equal-lists/equal-lists.ts
-src/exercises/57-reverse-list/reverse-list.ts
-src/exercises/58-palindrome/palindrome.ts
-src/exercises/59-zip-with/zip-with.ts
-src/exercises/60-relation-accomplished-for-all/relation-accomplished-for-all.ts
+# src/exercises/02-add/add.ts
+# src/exercises/03-next/next.ts
+# src/exercises/04-double/double.ts
+# src/exercises/05-gt/gt.ts
+# src/exercises/06-is-adult/is-adult.ts
+# src/exercises/07-and/and.ts
+# src/exercises/08-not/not.ts
+# src/exercises/09-max/max.ts
+# src/exercises/10-both/both.ts
+# src/exercises/11-double-both/double-both.ts
+# src/exercises/12-square-both/square-both.ts
+# src/exercises/13-flip/flip.ts
+# src/exercises/14-flipped-concat/flipped-concat.ts
+# src/exercises/15-twice/twice.ts
+# src/exercises/16-plus-two/plus-two.ts
+# src/exercises/17-quadruple/quadruple.ts
+# src/exercises/18-compose/compose.ts
+# src/exercises/19-double-of-next/double-of-next.ts
+# src/exercises/20-next-of-double/next-of-double.ts
+# src/exercises/21-next-curry/next-curry.ts
+# src/exercises/22-double-curry/double-curry.ts
+# src/exercises/23-at-curry/at-curry.ts
+# src/exercises/24-two-raised-at/two-raised-at.ts
+# src/exercises/25-square-curry/square-curry.ts
+# src/exercises/26-even/even.ts
+# src/exercises/27-sum/sum.ts
+# src/exercises/28-multiply/multiply.ts
+# src/exercises/29-divide/divide.ts
+# src/exercises/30-mod/mod.ts
+# src/exercises/31-pow/pow.ts
+# src/exercises/32-factorial/factorial.ts
+# src/exercises/33-fibonacci/fibonacci.ts
+# src/exercises/34-length-recursivity/length-recursivity.ts
+# src/exercises/35-sum-lists-recursivity/sum-lists-recursivity.ts
+# src/exercises/36-production-recursivity/production.ts
+# src/exercises/37-doubles-recursivity/doubles.ts
+# src/exercises/38-evens-recursivity/evens.ts
+# src/exercises/39-at-recursivity/at.ts
+# src/exercises/40-maximum-recursivity/maximum.ts
+# src/exercises/41-some-recursivity/some-recursivity.ts
+# src/exercises/42-every-recursivity/every-recursivity.ts
+# src/exercises/43-doubles-map/doubles-map.ts
+# src/exercises/44-map-recursivity/map-recursivity.ts
+# src/exercises/45-evens-filter/evens-filter.ts
+# src/exercises/46-filter-recursivity/filter-recursivity.ts
+# src/exercises/47-sum-reduce/sum-reduce.ts
+# src/exercises/48-production-reduce/production.ts
+# src/exercises/49-maximum-reduce/maximum-reduce.ts
+# src/exercises/50-length-reduce/length-reduce.ts
+# src/exercises/51-some-reduce/some-reduce.ts
+# src/exercises/52-partial-every-reduce/partial-every-reduce.ts
+# src/exercises/53-reduce-recursivity/reduce-recursivity.ts
+# src/exercises/54-map-reduce/map-reduce.ts
+# src/exercises/55-filter-reduce/filter-reduce.ts
+# src/exercises/56-equal-lists/equal-lists.ts
+# src/exercises/57-reverse-list/reverse-list.ts
+# src/exercises/58-palindrome/palindrome.ts
+# src/exercises/59-zip-with/zip-with.ts
+# src/exercises/60-relation-accomplished-for-all/relation-accomplished-for-all.ts
