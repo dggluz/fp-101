@@ -60,10 +60,6 @@ The _functions_ there are all _curried_. You can find the source code of them at
 
 The solutions to the exercises are uploaded to the [`solutions` branch](https://github.com/dggluz/fp-101/tree/solutions), you can take a peek to them if you wish (though I recommend you to try solving the problems by yourself first).
 
-## Glossary
-
-This is not a theoric guide but just a practical one and it should be used as a counterpart of a theoric guide. Anyway, we provide an small and concise **[glossary](./glossary.md)** to help you understand some terms you may be not familiar with.
-
 ## Contributing
 
 All the contributions (issues reporting, PRs, difussion, etc.) will be welcome.
