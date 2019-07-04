@@ -30,6 +30,18 @@ You can find the exercise's tests into `src/exercises` directory. They are sorte
 
 For some exercises, you can reuse the solutions you've already done. You can (and should) also use the _functions_ from `@utils`.
 
+### Solving the exercises with JS
+
+Even though I recommend to use TypeScript, you can solve the exercises using JavaScript. Just use the `.js` extension instead of the `.ts` one for your solutions. Also, remember to set the property you want to _export_ to `module.exports`. For instance, the first exercise would be like this solved with JavaScript (into a `src/exercises/01-id/id.js` file):
+
+```javascript
+const id = x => x;
+
+module.exports = {
+	id
+};
+```
+
 ## `@utils`
 
 There is a collection of _utility funtions_ called "_@utils_". You can `import` them by doing (for example):
