@@ -2,9 +2,13 @@
 
 The following rules should enforce a _functional_ programming style.
 
-## Don not reassigning variables
+## Do not reassigning variables
 
 It's **completely forbidden** to override a variable (use only `const`, not `let` nor `var`).
+
+## Do always return something from functions
+
+Functional programming is all about _functions_ that **return** _values_. To enforce _functional_ style, please always _return_ something explicitly, even with `return` or with arrow functions with concise body (`(...) => ...` syntax, without block body (brackets)).
 
 ## Avoid flow control statements
 
