@@ -303,3 +303,7 @@ Define `zipWith/3` which takes a _function_ (`<A, B, C> (x: A, y: B) => C`) and 
 ## 60. `relationAccomplishedForAll`
 
 Define `relationAccomplishedForAll/1` which takes a _binary predicate_ and could be used for creating `equalLists/2` like `const equalLists = relationAccomplishedForAll(eq)`.
+
+## 61. `curry`
+
+Define `curry/1` which takes a _binary function_ `f` and returns its _curried_ version (an _unary function_ that returns another _unary function_ that returns the result).
