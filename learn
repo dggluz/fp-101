@@ -1,0 +1,69 @@
+#!/bin/bash
+
+# Match patterns in a case-insensitive fashion
+shopt -s nocasematch
+
+## Utilitaries
+integer_regex='^[0-9]+$'
+
+## Text formatters (https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+format_escape='\033'
+format_reset="${format_escape}[0m"
+bold="${format_escape}[1m"
+red="${format_escape}[91m"
+cyan="${format_escape}[96m"
+gray="${format_escape}[90m"
+
+## Texts procedures
+ask_for_exercise() {
+	echo -e "\n${bold}${cyan}Which exercise do you want to run?${format_reset}"
+	echo -e "${gray}(enter the exercise number or \"none\" to exit)${format_reset}"
+}
+
+show_invalid_exercise_number_error () {
+	echo -e "${red}Error: \"$1\" is not a number${format_reset}" >&2
+}
+
+show_separator () {
+	echo -e "${gray}\n\n***********************************\n\n${format_reset}"
+}
+
+show_goodbye () {
+	echo -e "\n${bold}${cyan}Bye! :)${format_reset}"
+}
+
+## Main loop
+while true; do
+
+	# Ask for the exercise
+	ask_for_exercise
+	read exercise_number
+
+	if [[ "$exercise_number" == "none" ]]; then
+		show_goodbye
+		exit 0
+	fi
+
+	# Validate the exercise is numeric
+	if ! [[ $exercise_number =~ $integer_regex ]]; then
+		show_invalid_exercise_number_error $exercise_number
+		show_separator
+		continue
+	fi
+
+	# Pad the number with "0" if needed
+	if [ "$exercise_number" -lt 10 ]; then
+		exercise="0$(($exercise_number))"
+	else
+		exercise="$(($exercise_number))"
+	fi
+
+	# Build the exercise path
+	expath="./src/exercises/${exercise}-*/**"
+
+	# Run the exercise's tests
+	npx jest -- $expath
+
+	show_separator
+
+done

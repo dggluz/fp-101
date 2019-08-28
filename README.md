@@ -20,7 +20,7 @@ If you want to start with functional programming and you know at least a little 
 
 ## Running the tests
 
-You can run the tests in "_watch mode_" just by running `npm run learn`.
+You can run all the tests with `npm t` or run an utilitary tool (`npm run learn` or `./learn`) to just run the tests for the exercise you are interested in (recommended option).
 
 ## Following the rules
 

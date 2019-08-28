@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "learn": "jest --watchAll",
+    "learn": "./learn",
     "test": "jest"
   },
   "author": "Gonzalo Gluzman <dggluz@gmail.com>",
