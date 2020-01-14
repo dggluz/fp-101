@@ -78,7 +78,7 @@ Define `flippedConcat` function, which receives two strings and returns the conc
 
 ## 15. `twice`
 
-Define `twice/2` which takes a `f/2` function and returns a function that expects one argument and applies `f` with that value for both parameters. For example:
+Define `twice/1` which takes a `f/1` function and returns a function that expects one argument and applies `f` with that value for both parameters. For example:
 
 ```typescript
 const ask = (x: string) => x + '?';
